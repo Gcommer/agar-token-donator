@@ -3,7 +3,7 @@
 import requests, json, time, random
 
 DONATE_URL = 'http://at.gcommer.com/donate?server={}&token={}'
-DELAY_SECS = 10
+DELAY_SECS = 25
 AGARIO_HEADERS = {
     'Origin': 'http://agar.io',
     'Referer': 'http://agar.io',
